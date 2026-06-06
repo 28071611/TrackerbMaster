@@ -3,10 +3,13 @@ import Tracker from '../components/Tracker';
 
 function Dashboard() {
   return (
-    <div style={{maxWidth:600,margin:'40px auto',padding:24}}>
-      <h1>IP-Based Mobile Network Location Tracker</h1>
+    <main>
+      <header>
+        <h1>IP Network Tracker</h1>
+        <p className="subtitle">Discover physical location and network intelligence for any IP address</p>
+      </header>
       <Tracker />
-    </div>
+    </main>
   );
 }
 
